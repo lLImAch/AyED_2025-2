@@ -20,7 +20,7 @@ namespace ConsoleApplication1
             Console.WriteLine("ingresa la temperatura en C ");
             a = Console.ReadLine();
             A = decimal.Parse(a);
-            F = A * (9/8) + 32;
+            F = A * (9m / 8m) + 32;
             Console.WriteLine("la temperatura en C es " + A + " y los Fahrenheit son " + F);
             Console.ReadKey();
 
