@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            /* Desarrolle un programa que
+             *  lea un valor que represente la temperatura
+              expresada en grado Celsius 
+              y la convierta en grado Fahrenheit*/
+            string a;
+            decimal A, F;
+            Console.WriteLine("ingresa la temperatura en C ");
+            a = Console.ReadLine();
+            A = decimal.Parse(a);
+            F = A * (9/8) + 32;
+            Console.WriteLine("la temperatura en C es " + A + " y los Fahrenheit son " + F);
+            Console.ReadKey();
+
+        }
+    }
+}
