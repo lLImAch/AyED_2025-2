@@ -1,0 +1,78 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            /* 
+             Construir una aplicación que reciba
+             el nombre de un mes del año como el
+             parámetro y proporcione su número correspondiente.
+             Debe ser con el formato:
+             Nombre del mes  +  número del mes 
+             */
+            string mes;
+          
+            Console.WriteLine("ingresa el mes");
+            mes = Console.ReadLine();
+
+            if (mes =="enero")
+            {
+                Console.WriteLine("enero " + 1);
+            }
+            if (mes == "febrero")
+            {
+                Console.WriteLine("febrero " + 2);
+            }
+            if (mes == "marzo")
+            {
+                Console.WriteLine("marzo " + 3);
+            }
+            if (mes == "abril")
+            {
+                Console.WriteLine("abril " + 4);
+            }
+            if (mes == "mayo")
+            {
+                Console.WriteLine("mayo " + 5);
+
+            }
+            if (mes == "junio")
+            {
+                Console.WriteLine("junio " + 6);
+            }
+            if (mes == "julio")
+            {
+                Console.WriteLine("julio " + 7);
+            }
+            if (mes == "agosto")
+            {
+                Console.WriteLine("agosto " + 8);
+            }
+            if (mes == "septiembre")
+            {
+                Console.WriteLine("septiembre " + 9);
+            }
+            if (mes == "octubre")
+            {
+                Console.WriteLine("octubre " + 10);
+            }
+            if (mes == "noviembre")
+            {
+                Console.WriteLine("noviembre " + 11);
+            }
+            if (mes == "diciembre")
+            {
+                Console.WriteLine("diciembre " + 12);
+            }
+            Console.ReadKey();
+        }
+    }
+}
